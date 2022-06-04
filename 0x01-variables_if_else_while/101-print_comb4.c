@@ -14,8 +14,8 @@ int main(void)
 		{
 			for (l = 50; l < 58; l++)
 													{
-														if (l > m && m > n)
-														{
+				if (l > m && m > n)
+				{
 															putchar(n);
 															putchar(m);
 															putchar(l);
@@ -23,10 +23,10 @@ int main(void)
 															{
 						putchar(',');
 																putchar(' ');
-															}
-														}
-													}
-												}
+					}
+				}
+			}
+		}
 	}
 	putchar('\n');
 	return (0);
