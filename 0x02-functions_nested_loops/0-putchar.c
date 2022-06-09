@@ -1,11 +1,9 @@
-/**
- * main - Ap program that prints _putchar followed by
- * a new line without using the stdio
- *
- * Return: 0 on success
- *
- */
+#include "main.h"
 
+/**
+ * main - prints putchar
+ * Return: always 0
+ */
 int  main(void)
 {
 	_putchar('_');
@@ -17,5 +15,6 @@ int  main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
