@@ -1,10 +1,12 @@
-#include "main.h"
-#include <unistd.h>
 /**
- * main -  prints _putchar, followed by a new line
- * Return: Always 0 (Success)
+ * main - Ap program that prints _putchar followed by
+ * a new line without using the stdio
+ *
+ * Return: 0 on success
+ *
  */
-int main(void)
+
+int  main(void)
 {
 	_putchar('_');
 	_putchar('p');
